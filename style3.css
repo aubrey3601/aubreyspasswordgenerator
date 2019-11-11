@@ -8,9 +8,8 @@ header {
     text-justify: center;
 }
 
-.headerwrapper {
-    width: 960px;
-    margin: 0 auto;
+.box {
+    border: 5px grey dotted;
 }
 
 h1,
@@ -26,7 +25,11 @@ h1 {
     float: center;
 }
 
-btn btn-dange
+
+.btn-custom {
+    width: 49%;
+}
+
 
 h2 {
     color: gray;
@@ -68,15 +71,15 @@ ul {
 } */
 
 .dotted-input {
-    border: 0px; 
-    border-bottom:1px dotted #000;
-}​
+    border: 0px;
+    border-bottom: 1px dotted #000;
+}
 
-.dotbox{
-    border:none;
-    border-bottom:thin dashed black;
-    padding-bottom:0;
-    outline:none;
+​ .dotbox {
+    border: none;
+    border-bottom: thin dashed black;
+    padding-bottom: 0;
+    outline: none;
 }
 
 .btn btn-danger {

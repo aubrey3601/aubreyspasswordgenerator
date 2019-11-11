@@ -3,34 +3,31 @@
 // - arrays, 
 // - Math.random() (and everything that comes with it!!!)
 // - eventListeners
-
-
 // Step 1: 
 // 1. create an array of lowerCase characters
-var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 // 2. create an array of upperCase characters
-var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 // 3. create an array of numbers
-var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 // 4. create an array of special characters
+
+var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialCharacters = ["!", "@", "#", "$", "%","^", "&", "*"];
+
+
 
 // Step 2: 
 // 1. create a function that asks the user about the specifics of the password:
 //     -length
 var pwdLength = 10;
-var randomPwd = Array(pwdLen).fill(pwdChars).map(function(x) { return x[Math.floor(Math.random() * x.length)] }).join('');
 
-function generatePassword() {
-    var length = 10 ,
-        charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
-        retVal = "";
-    for (var i = 0, n = charset.length; i < length; ++i) {
-        retVal += charset.charAt(Math.floor(Math.random() * n));
-    }
-    return retVal;
-}
+document.querySelector("btn btn-danger");
+
+document.addEventListener("click", function(){
+   
+})
+
 //     -lowerCase characters
 //     -upperCase characters
 //     -numbers
@@ -64,10 +61,3 @@ function generatePassword() {
 
 // Step 5: 
 // 1. target your button from html and add an click event listener to it, and execute/invoke the function from Step 1. 
-
-// !!! ***CONSOLE.LOG() often to see what you are working with*** !!!
-// !!! if it's not working, open CONSOLE and see the error !!!
-
-// This is your MVP: minimum viable product!
-
-// On your own, take it a step further to validate the user's responses: certain length and at least one response should be true. 
