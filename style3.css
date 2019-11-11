@@ -1,0 +1,84 @@
+header {
+    border-color: #cccccc;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-justify: center;
+}
+
+.headerwrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    background-color: white;
+    font-size: 30px;
+    width: 350px;
+    padding: 30px 0;
+    float: center;
+}
+
+btn btn-dange
+
+h2 {
+    color: gray;
+    font-size: 30px;
+    float: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    border-width: 5px;
+    border-color: grey;
+    border: 10px;
+}
+
+ul {
+    color: #777777;
+    float: right;
+    list-style-type: none;
+    text-align: right;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+/* li {
+    display: inline-block;
+} */
+
+.dotted-input {
+    border: 0px; 
+    border-bottom:1px dotted #000;
+}​
+
+.dotbox{
+    border:none;
+    border-bottom:thin dashed black;
+    padding-bottom:0;
+    outline:none;
+}
+
+.btn btn-danger {
+    color: green;
+}
