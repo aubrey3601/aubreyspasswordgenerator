@@ -30,6 +30,11 @@ h1 {
     width: 49%;
 }
 
+.box {
+    padding: 40px;
+    text-align: center;
+    margin: 10px;
+}
 
 h2 {
     color: gray;
@@ -70,18 +75,14 @@ ul {
     display: inline-block;
 } */
 
-.dotted-input {
+/* .dotted-input {
     border: 0px;
     border-bottom: 1px dotted #000;
-}
+} */
 
-​ .dotbox {
+/* ​ .dotbox {
     border: none;
     border-bottom: thin dashed black;
     padding-bottom: 0;
     outline: none;
-}
-
-.btn btn-danger {
-    color: green;
-}
+} */
